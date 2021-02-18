@@ -6,59 +6,172 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Curriculum Vitae</title>
         <link href="CV.CSS" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- header -->
         <div class="background-photo">
             <div class="header">
                 <div class="header-left">
-                    <h3>Patrick Byan</h3>
+                    <span>
+                        Patrick Byan
+                    </span>
                 </div>
-                <div class="header">
-                    <div class="header-right">
-                        <h4>WELCOME</h4>
-                    </div>
-                    <div class="header-right">
-                        <h4>CURRICULUM</h4>
-                    </div>
-                    <div class="header-right">
-                        <h4>PORTFOLIO</h4>
-                    </div>
-                    <div class="header-right">
-                        <h4>BLOG</h4>
-                    </div>
-                    <div class="header-right">
-                        <h4>AWARDS</h4>
-                    </div>
-                    <div class="header-right">
-                        <h4>CONTACT</h4>
-                    </div>
+                <div class="header-right">
+                    <a href="#about-me" class="header-text">
+                        <span>About Me</span>
+                    </a>
+                    <a href="#experience" class="header-text">
+                        <span>Experience</span>
+                    </a>
+                    <a href="#portfolio" class="header-text">
+                        <span>Portfolio</span>
+                    </a>
+                    <a href="#education" class="header-text">
+                        <span>Education</span>
+                    </a>
+                    <a href="#contact" class="header-text">
+                        <span>Contact</span>
+                    </a>
                 </div>
             </div>
 
-            <div class="konten-nama">
+            <div class="judul-nama">
                 <center><h1>HI, I'M PATRICK BYAN</h1></center>
             </div>
         </div>
 
         <!-- konten(foto, nama, deksripsi, dan garis) -->
-        <div class="background-warna">
+        <div>
             <div class="foto-diri">
-                <center>
-                    <img src="Assets/patrick.jpg" width="10% height="30px" style="border-radius: 100%;"">
-                </center>
+                <img src="Assets/patrick.jpg" style="border-radius: 100%" height="120px" >
             </div>
             
-            <div class="konten-nama-dalam">
+            <div class="deskripsi-singkat">
                 <center>
-                    <h1 class="konten-nama">PATRICK BYAN</h1>
-                    <h4>Industrial Engineering Fresh Graduate, 
-                        <br> Soon To Be Front-End Developer</h4>
+                    <h1 class="judul-nama">PATRICK BYAN</h1>
+                    <p>Industrial Engineer ● Full-Stack Developer ● App Developer ● Choral Music Enthusiast</p>
                 </center>
             </div>
+        </div>
+        <br>
+        <hr class="hr-style">
+        <br><br>
 
+        <!-- experience (about me)-->
+        <div id="about-me">
             <div>
-                <!-- deskripsi -->
+                <h3 class="judul-nama" style="font-size: 20px; font-weight: 300; margin-bottom: 90px;">
+                    Get to know: Me
+                </h3>
+            </div>
+
+            <div class="aboutme-profile">
+                <div class="aboutme-judulprofile">
+                        PROFILE
+                        <br><br><br><br>
+                        SOCIAL PROFILE
+                        <br>
+                        <p style="padding-top: 35px;">SKILLS</p>
+                        <br>
+                        <p style="padding-top: 103px;">CONTACT</p>
+                    
+                    <!-- profile (samain kaya diatas)--> 
+                    <!-- social profiles (logo2)-->
+                    <!-- skills (app skill, html5, css3, javascript, spss, miniTab, CAD)-->
+                    <!-- Contact (email)-->
+                </div>
+                <div class="aboutme-isiprofile">
+                        <!-- Profile -->
+                        Industrial Engineer, Full-Stack Developer, App Developer, Choral Music Enthusiast
+                        <br><br><br>
+
+                        <!-- Social Profiles -->
+                        <div class="logos">
+                            <a href="https://www.linkedin.com/in/patrickbyan/" target="_blank">
+                                <img src="Assets/linkedin.png" class="logos logos-palingkiri">
+                            </a>
+
+                            <a href="https://www.instagram.com/patrickbyan/" target="_blank">
+                                <img src="Assets/instagram.png" class="logos logos-sisanya">
+                            </a>
+
+                            <a href="https://wa.me/+6281296917987" target="_blank">
+                                <img src="Assets/whatsapp.png" class="logos logos-sisanya">
+                            </a>
+                        </div>
+                        <br><br>
+
+                        <!-- Skills -->
+                        <div class="skills-section">
+                            <div class="skills">
+                                <div class="skill-bar">
+                                    <div class="skill-progres-bar">
+                                        HTML5 (on-going)
+                                    </div>
+                                    <div class="skill-percentage">
+                                        <img src="Assets/sandglass.png" class="hourglass">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-bar">
+                                    <div class="skill-progres-bar">
+                                            CSS3 (on-going)
+                                    </div>
+                                    <div class="skill-percentage">
+                                            <img src="Assets/sandglass.png" class="hourglass">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-bar">
+                                    <div class="skill-progres-bar">
+                                            JAVASCRIPT (on-going)
+                                    </div>
+                                    <div class="skill-percentage">
+                                            <img src="Assets/sandglass.png" class="hourglass">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-bar">
+                                    <div class="skill-progres-bar" style="width: 80%">
+                                            SPSS / MINITAB
+                                    </div>
+                                    <div class="skill-percentage">
+                                            80%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-bar">
+                                    <div class="skill-progres-bar" style="width: 60%">
+                                            AUTOCAD
+                                    </div>
+                                    <div class="skill-percentage">
+                                            60%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="padding-top: 31px;">patrickbyann@gmail.com</p>
+                        
+                </div>
+                <div class="aboutme-deskripsiprofile">
+                    Hi, my name is Patrick Byan. I'm a 22 years old multi talent from Jakarta, Indonesia.
+                    <br><br>
+                    Let me give you a short introduction of myself, with all the keyfacts. 
+                    <br>
+                    If you want to know more about me just further explore this page.
+                    Thanks alot for visiting.
+                    <br><br><br>
+                    Regards,
+                    <br><br>
+                    Pat
+                </div>
             </div>
         </div>
     </body>
