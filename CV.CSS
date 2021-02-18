@@ -1,0 +1,57 @@
+.background-photo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 400px;
+    background-image: url(assets/konser\ jubil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1800px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.header-left{
+    margin-left: 100px;
+    /* border: 3px solid white; */
+    color: white
+
+}
+
+.header-right{
+    margin-right: 30px;
+    right: 50px;
+    color: white;
+}
+
+.konten-nama{
+    position: relative;
+    margin-top: 75px;
+    color: white;
+}
+
+.background-warna{
+    background-color: darksalmon ;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    width: 212.5vh;
+    height: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foto-diri{
+    margin-top: -80px;
+}
+
+.konten-nama-dalam{
+    position: relative;
+    margin-top: 120px;
+    color: black;
+}
