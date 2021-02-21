@@ -1,29 +1,27 @@
+:root{
+    --warna-primary: rgba(85, 47, 47, 0.596);
+    --warna-secondary: rgb(121, 121, 121);
+    --warna-gold: rgb(245, 157, 69);
+}
+
 /* styling utama */
 body{
     margin: 0px;
     padding: 0px;
     font-family: 'Quicksand', sans-serif;
-    background-color: darksalmon;
-    /* 300, 400, 500, 600, 700 */
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.give-border{
-    border: 1px solid black;
-}
-
-.give-flex{
-    display: flex;
-    width: 210vh;
-    height: 100px;
-}
+/* .give-border{
+    border: 1px solid white;
+} */
 
 .hr-style{
-    background-color: black;
-    border-color: black;
+    background-color: var(--warna-gold);
+    border-color: var(--warna-gold);
     width: 65px;
     height: 2px;
     border-radius: 30%;
@@ -47,33 +45,24 @@ html {
     justify-content: space-between;
 }
 
-/* div header kiri */
-.header .header-left{
-    margin: 30px 50px 30px 200px;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    border: 3px solid white; 
-    padding: 5px;
-}
-
-/* div header kanan */
-.header .header-right{
-    margin: 30px 200px;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-}
-
 /* tulisan dalam header kanan */
 .header-text{
-    text-decoration: none;
     color: white;
     margin-left: 10px;
 }
 
-/* "hi im patrick byan" */
-.judul-nama{
+/* mouse over link */
+#header-hover:hover{
+    color: var(--warna-gold);
+}
+  
+/* selected link */
+#header-hover:active {
+    color: white;
+    font-weight: normal;
+}
+
+.judul-nama-atas{
     flex: 3;
     display: flex;
     justify-content: center;
@@ -82,6 +71,26 @@ html {
     font-weight: 600;
     margin-top: 75px;
     color: white;
+}
+
+.judul-nama{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 75px;
+    color: var(--warna-gold);
+}
+
+.judul-section{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 90px;
+    color: var(--warna-gold);
+    font-size: 20px; 
+    font-weight: 400;
 }
 
 /* foto profil */
@@ -95,34 +104,46 @@ html {
     margin-top: 120px;
     font-weight: 400;
     line-height: 15px;
-    color: black;
+    color: white;
 }
-
 .aboutme-profile{
     display: flex;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 15px;
     color: white;
-    margin-left: 200px;
+    margin: 0px 250px;
 }
 
 .aboutme-judulprofile{
-    flex: 1;
-    /* letter-spacing: 3px; */
-    color: black;
+    letter-spacing: 3px;
+    color: white;
+    width: 10%;
+    
 }
 
 .aboutme-isiprofile{
-    flex: 2;
-    margin-left: 15px;
-    color: black;
+    color: white;
+    width: 40%;
+}
+
+.aboutme-deskripsiprofile{
+    text-align: justify;
+    width: 50%;
+    color: white;
+    padding-left: 20px;
+    /* tanya ini besok, bordernya kelebihan gmn cara nguranginnya */
+}
+
+.space-antar-konten-profile{
+    margin: 0px 0px 20px 0px;
 }
 
 .logos{
     display: flex;
-    width: 18px;
+    width: 20px;
 }
+
 .logos .logos-palingkiri{
     margin-left: 0px;
 }
@@ -131,54 +152,89 @@ html {
     margin-left: 20px;
 }
 
-.aboutme-deskripsiprofile{
-    flex: 5;
-    margin-left: 100px;
-    text-align: justify;
-    width: 10px;
-    color: black;
-    /* tanya ini besok, bordernya kelebihan gmn cara nguranginnya */
-}
-
-.skill-section{
-    display: flex;
-    justify-content: center;
-    width: 87%;
-}
-
 .skills{
-    flex: 1;
+
 }
 
-.skill-bar{
-    display: flex; 
-    justify-content: space-between;
-    background-color: silver;
-    margin-top: 15px;
-}
-
-.skill-progres-bar{
-    width: 35%;
-    height: 12px;
-    background-color: black;
-    font-size: 8.5px;
-    font-weight: 700;
-    color: white;
-    padding-left: 12px;
-    /* tanya ini, cara jarakin tiap karakter gimana */
-}
-
-.skill-percentage{
-    height: 12px;
-    font-size: 8px;
-    color: black;
-    padding-right: 5px;
-    text-align: right;
-    font-weight: 700;
+.skill-progress{
+    margin: 0px 0px 10px 0px;
+    letter-spacing: 2px;
 }
 
 .hourglass{
-    width: 10px;
-    padding-top: 1px;
+    width: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.skill-percentage{
     text-align: right;
-} 
+    margin-right: 8px;
+    margin-top: 15px;
+    letter-spacing: 0px;
+}
+
+.what-i-offer-outsidebox{
+    margin: 0px 250px;
+}
+
+.what-i-offer-logo{
+    color: white;
+    padding:10px;
+    width: 130px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.education-profile{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    margin: 0px 250px;
+}
+
+.education-judulprofile{
+    letter-spacing: 4px;
+    color: white;
+    width: 30%;
+    font-size: 18px;
+    /* width : 30% */
+}
+
+.education-isiprofile{
+    color: white;
+    width: 50%;
+}
+
+.education-deskripsiprofile{
+    width: 20%;
+    color: white;
+    margin-left: 20px;
+}
+
+.question-form-style{
+    margin: 0px 500px;
+}
+
+.question-form-each{
+    margin-top: 10px;
+}
+
+/* Container holding the image and the text */
+.container-contact {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+/* Centered text */
+.centered-contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
