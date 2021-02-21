@@ -109,6 +109,7 @@ html {
 
 .aboutme-judulprofile{
     flex: 1;
+    /* letter-spacing: 3px; */
     color: black;
 }
 
