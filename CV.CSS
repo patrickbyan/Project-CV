@@ -1,10 +1,18 @@
 :root{
-    --warna-primary: rgba(85, 47, 47, 0.596);
-    --warna-secondary: rgb(121, 121, 121);
-    --warna-gold: rgb(245, 157, 69);
+    --primary : #f6f6f6;
+    --secondary : #ffbb91;
+    --third : #e6951c;
+    --dark : #515070;
+    --light : #f6f6f6;
+    --danger : #ec4646;
+    --light-grey : #f4f9f9;
+    --dark-grey : #dddddd;
+    --white: #ffffff;
+    --one : #ff5c5c;
+    --two : #ab5454;
+    --three : #a8a8a8;
 }
 
-/* styling utama */
 body{
     margin: 0px;
     padding: 0px;
@@ -19,17 +27,26 @@ html {
     border: 1px solid white;
 } */
 
+.bighover{
+    font-size: inherit;
+    transition: 0.5s;
+}
+
+.bighover:hover{
+    font-size: 19px;
+}
+
 .hr-style{
-    background-color: var(--warna-gold);
-    border-color: var(--warna-gold);
+    background-color: var(--dark);
+    border-color: var(--dark);
     width: 65px;
-    height: 2px;
+    height: 3px;
     border-radius: 30%;
 }
 
 /* header sampai deskripsi singkat */
 .background-photo{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/konser\ jubil.jpg); 
+    /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/jumbotron.jpg);  */
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -53,12 +70,12 @@ html {
 
 /* mouse over link */
 #header-hover:hover{
-    color: var(--warna-gold);
+    color: var(--warna-third);
 }
   
 /* selected link */
 #header-hover:active {
-    color: white;
+    color: var(--warna-dark);
     font-weight: normal;
 }
 
@@ -95,8 +112,10 @@ html {
 
 /* foto profil */
 .foto-diri{
-    margin-top: -70px;
+    position: relative;
+    margin-top: -60px;
     text-align: center;
+    z-index: 1;
 }
 
 /* konten deskripsi singkat */
@@ -106,6 +125,7 @@ html {
     line-height: 15px;
     color: white;
 }
+
 .aboutme-profile{
     display: flex;
     font-family: 'Quicksand', sans-serif;
@@ -150,10 +170,6 @@ html {
 
 .logos .logos-sisanya{
     margin-left: 20px;
-}
-
-.skills{
-
 }
 
 .skill-progress{
@@ -228,7 +244,6 @@ html {
 .container-contact {
     position: relative;
     text-align: center;
-    color: white;
 }
   
 /* Centered text */

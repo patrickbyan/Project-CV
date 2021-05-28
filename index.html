@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patrick Byan Katamsi</title>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+        <!-- Fontawesome -->
+        <link href="./fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+
+        <!-- Font Type -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+        <link href="Cv.css" type="text/css" rel="stylesheet">
+        <link href="Utils.css" type="text/css" rel="stylesheet">
+
+        <!-- Send Email from JS -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body class="cp-bg-primary">
+        <div id="top" class="container">
+            <div class="navbar navbar-top fixed-top fs18" style="background-color: rgba(243, 243, 243, 0.8);">
+                <a href="https://patrickbyan.netlify.app/" class="col-10 col-md-3 text-decoration-none">
+                    <div class="ml-md-5 width-120 border-gold">
+                        <div class="p-2 text-center text-dark">
+                            <div class="bighover">
+                                PATRICK
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="d-md-flex d-none mr-md-5"> 
+                    <div class="row align-items-center">
+                        <a href="#about-me" class="col text-nowrap text-decoration-none text-dark bighover">
+                            About Me
+                        </a>
+                        <a href="#education" class="col text-decoration-none text-dark bighover">
+                            Education
+                        </a>
+                        <a href="#portfolio" class="col text-decoration-none text-dark bighover">
+                            Portfolio
+                        </a>
+                        <a href="#contact" class="col text-decoration-none text-dark bighover">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+                <nav class="col-2 d-md-none d-flex fs25">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" id="menuToggle"></i>
+                    </button>
+                </nav>
+                <div class="col-12 mt-2">
+                    <div class="collapse" id="menuDropdown">
+                        <div class="p-0 m-0 p-4">
+                            <h5 class="text-dark h4">Get to Know Me</h5>
+                            <div class="list-group list-group-flush">
+                                <a href="#about-me" class="text-muted list-group-item list-group-item-action">
+                                    About Me
+                                </a>
+                                <a href="#education" class="text-muted list-group-item list-group-item-action">
+                                    Education
+                                </a>
+                                <a href="#portfolio" class="text-muted list-group-item list-group-item-action">
+                                    Portfolio
+                                </a>
+                                <a href="#contact" class="text-muted list-group-item list-group-item-action">
+                                    Contact
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cp-bg-primary" style="margin-top: 70px;">
+            <div class="card">
+                <img src="Assets/jumbotron.png" class="img-fluid">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center mt-md-5">
+                    <h1 class="d-md-block d-none display-4 text-center cp-dark" style="background-color: rgba(243, 243, 243, 0.8);" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                        Hi! I'm Patrick Byan Katamsi
+                    </h1>
+                </div>
+            </div>
+            <div>
+                <div class="foto-diri" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                    <img src="Assets/patrick.jpg" class="rounded-circle height-120">
+                </div>
+                <div class="container text-center mt-5 cp-dark" data-aos="zoom-in" data-aos-offset="400" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                    <h1>PATRICK BYAN KATAMSI</h1>
+                    <p class="font-weight-light text-muted"><b class="cp-third">UAJ's</b> Industrial Engineering Graduates <span>●</span> <b class="cp-third">Purwadhika's</b> Web and Mobile Development Graduates</p>
+                </div>
+            </div>
+        </div>
+        <div id="about-me" class="mt-2">
+
+        </div>
+        <div style="margin-top: 100px;">
+            <div data-aos="zoom-in" data-aos-offset="300" data-aos-duration="500">
+                <center><h1 class="judul-nama">ABOUT ME</h1>
+                    <p style="letter-spacing: 1px;">
+                        Get to Know Me <span>●</span> What I Offer
+                    </p></center>
+                    <hr class="hr-style mt-5">
+            </div>
+        </div>
+        
+        <div class="cp-bg-secondary mt-md-5 pb-md-2">
+            <div>
+                <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
+                    <h3 class="text-center h5 font-weight-normal pt-5 text-dark-50">
+                        Get to Know Me
+                    </h3>
+                    <p class="text-center fs16 text-muted font-weight-normal mt-n1">
+                        Get to know where I'm from, my skills, my socials on quick look
+                    </p>
+                    <p class="text-center fs16 text-muted font-weight-normal pb-5 mt-n1 blockquote-footer">
+                        
+                    </p>
+                </div>
+                <div class="container">
+                    <dl class="row text-center text-md-left">
+                        <dt class="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="400" data-aos-anchor-placement="top-bottom">Profile</dt>
+                        <dd class="col-md-9" data-aos="fade-up" data-aos-offset="200" data-aos-duration="400" data-aos-anchor-placement="top-bottom">
+                          <dl class="row">
+                            <dt class="col-md-4 d-md-block d-none">Industrial Engineering Fresh Graduates, Web and Mobile Developer Graduates</dt>
+                            <dd class="col-md-8 d-md-block d-none">Hi, my name is Patrick Byan Katamsi. I'm a 22 years old, Indonesia. Born in June 8, 1998, and raised in Jakarta, Indonesia. Let me give you a short introduction of myself, with all the keyfacts. </dd>
+                            <dd class="col-md-8 d-md-none d-block">Hi, my name is Patrick Byan Katamsi. I'm a 22 years old from Jakarta, Indonesia. I'm an <b>Industrial Engineering</b> Fresh Graduates from UAJ and <b>Web and Mobile Developer</b> Graduates from Purwadhika.</dd>
+                          </dl>
+                        </dd>
+    
+                        <dt class="col-md-3" data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" data-aos-anchor-placement="top-bottom">Social Profiles</dt>
+                        <dd class="col-md-9" data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" data-aos-anchor-placement="top-bottom">
+                          <dl class="row">
+                            <dt class="col-md-4">
+                                <div class="d-flex fs25 justify-content-center justify-content-md-start">
+                                    <a href="https://www.linkedin.com/in/patrickbyan/" target="_blank">
+                                        <i class="fab fa-linkedin-in text-dark"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/patrickbyan/" target="_blank" class="mx-3">
+                                        <i class="fab fa-instagram text-dark"></i>
+                                    </a>
+                                    <a href="https://wa.me/+6281296917987" target="_blank">
+                                        <i class="fab fa-whatsapp text-dark"></i>
+                                    </a>
+                                </div>
+                            </dt>
+                            <dd class="col-md-8 d-md-block d-none">
+                                I'm a fresh graduate from Atma Jaya Catholic University of Indonesia, Majored in <b>Industrial Engineering</b>. 
+                                Short after i'm graduating university, i attended a program called <b>Job Connector Web and Mobile Developer Program</b> from <b>Purwadhika</b>.
+                                I joined the program because I wanna try something new, which was coding. Turns out <b>i really love doing that</b>, 
+                                and i really hope i could <b>get a job </b>from it.
+                            </dd>
+                          </dl>
+                        </dd>
+                        
+                        <dt class="col-md-3" data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" data-aos-anchor-placement="top-bottom">Skills</dt>
+                        <dd class="col-md-9" data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" data-aos-anchor-placement="top-bottom">
+                          <dl class="row">
+                            <dt class="col-md-4 fs14 d-md-block d-none">HTML, CSS, JS, REACT JS, REACT NATIVE, POSTMAN, NODE.JS, MYSQL, MONGODB</dt>
+                            <dd class="col-md-4 fs16 d-md-none d-block">HTML, CSS, JS, REACT JS, REACT NATIVE, POSTMAN, NODE.JS, MYSQL, MONGODB</dd>
+                            <dd class="col-md-8 d-md-block d-none">
+                                If you want to know more about me just further explore this page. 
+                                Thanks a lot for visiting.
+                            </dd>
+                          </dl>
+                        </dd>
+    
+                        <dt class="col-md-3" data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" data-aos-anchor-placement="top-bottom">Contact</dt>
+                        <dd class="col-md-9" data-aos="fade-up" data-aos-offset="100" data-aos-duration="400" data-aos-anchor-placement="top-bottom">
+                          <dl class="row">
+                            <dt class="col-md-4 d-md-block d-none">patrickbyann@gmail.com</dt>
+                            <dd class="col-md-4 d-md-none d-block">patrickbyann@gmail.com</dd>
+                            <dd class="col-md-8 d-md-block d-none">
+                                Regards, Patrick
+                            </dd>
+                          </dl>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="what-i-offer" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+            <div>
+                <h3 class="text-center h5 font-weight-normal pt-5 text-dark-50">
+                    What I Offer
+                </h3>
+                <p class="text-center fs16 text-muted font-weight-normal mt-n1">
+                    I have made several projects, that is displayed on the <a href="#portfolio" class="text-decoration-none text-dark">Portfolio</a> section. <br /> This section is just a quick guide of what I can offer
+                </p>
+                <p class="text-center fs16 text-muted font-weight-normal pb-5 mt-n1 blockquote-footer">
+                    
+                </p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="container-fluid px-5">
+                    <div class="row d-none d-md-flex row-cols-md-4">
+                        <div class="col mb-4" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                            <div class="card cp-bg-secondary text-dark h-100">
+                                <div class="card-img-top px-2">
+                                    <a href="#portfolio" class="row p-3">
+                                        <div class="col-6 border p-0 m-0 bg-light">
+                                            <img src="Assets/cv.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozyplace.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozylife.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozychat.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Front-End Developer</h5>
+                                    <p class="card-text">
+                                        <ul class="fs14 pl-1 list-unstyled">
+                                            Projects:
+                                            <li>This Portfolio <p class="p-0 m-0 text-muted fs13">(HTML, CSS, Bootstrap)</p></li>
+                                            <li>E-commerce Website <span class="font-weight-bold">cozyplace</span><p class="p-0 m-0 text-muted fs13">(React JS, CSS, Bootstrap, React Slick)</p></li>
+                                            <li>To Do List Website <span class="font-weight-bold">cozylife</span> <p class="p-0 m-0 text-muted fs13">(React JS, CSS)</p></li>
+                                            <li>Chat App Website <span class="font-weight-bold">cozychat</span> <p class="p-0 m-0 text-muted fs13">(React JS, CSS)</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-footer fs14 text-muted">
+                                    <b class="mr-1">Related Skills:</b> HTML, CSS, React JS, Bootstrap, React Slick
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4" data-aos="fade-up" data-aos-offset="400" data-aos-duration="600" data-aos-anchor-placement="top-bottom">
+                            <div class="card cp-bg-secondary text-dark h-100">
+                                <div class="card-img-top px-2">
+                                    <a href="#portfolio" class="row p-3">
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozyplace.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0 bg-light">
+                                            <img src="Assets/cozybus.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozylife.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozychat.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Back-End Developer</h5>
+                                    <p class="card-text">
+                                        <ul class="fs14 pl-1 list-unstyled">
+                                            Projects:
+                                            <li>E-commerce Website <span class="font-weight-bold">cozyplace</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, JSON, MySQL)</p></li>
+                                            <li>Bus Booking Mobile App <span class="font-weight-bold">cozybus</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, JSON, MySQL)</p></li>
+                                            <li>To Do List Website <span class="font-weight-bold">cozylife</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, MySQL, NodeMailer, Postman)</p></li>
+                                            <li>Chat App Website <span class="font-weight-bold">cozychat</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, MySQL, phpMyAdmin, Socket.io)</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-footer fs14 text-muted">
+                                    <b class="mr-1">Related Skills:</b> Node.JS, MySql, MongoDB, Socket.io, Postman
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4" data-aos="fade-up" data-aos-offset="400" data-aos-duration="700" data-aos-anchor-placement="top-bottom">
+                            <div class="card cp-bg-secondary text-dark h-100">
+                                <div class="card-img-top px-2">
+                                    <div class="row">
+                                        <a href="#portfolio" class="col-12 p-0 m-0">
+                                            <img src="Assets/cozybus.png" class="card-img-top p-3" alt="..."> 
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-nowrap">Mobile Apps Developer</h5>
+                                    <p class="card-text">
+                                        <ul class="fs14 pl-1 list-unstyled">
+                                            Projects:
+                                            <li>Bus Booking Mobile App <span class="font-weight-bold">cozybus</span> <p class="p-0 m-0 text-muted fs13">(React JS, Native Base, One Signal)</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-footer fs14 text-muted">
+                                    <b class="mr-1">Related Skills:</b> React Native, Native Base, One Signal
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4" data-aos="fade-up" data-aos-offset="400" data-aos-duration="800" data-aos-anchor-placement="top-bottom">
+                            <div class="card cp-bg-secondary text-dark h-100">
+                                <div class="card-img-top px-2">
+                                    <div class="row">
+                                        <a href="https://lib.atmajaya.ac.id/default.aspx?tabID=61&src=k&id=237137" target="_blank" class="col-12 p-0 m-0">
+                                            <img src="Assets/TA.png" class="card-img-top p-4" alt="..."> 
+                                        </a>
+                                    </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Industrial Engineer</h5>
+                                <p class="card-text">
+                                    <ul class="fs14 pl-1 list-unstyled">
+                                        Undergraduated Thesis:
+                                        <li>The Study of Work Factor on Workers at PT X Using Job Factors Questionnaire <p class="p-0 m-0 text-muted fs13">(Ergonomics, HSE)</p></li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer fs14 text-muted">
+                                <b class="mr-1">Related Skills:</b>PPIC, Ergonomics, Project Management, HSE
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardCarrousel" class="carousel slide pb-5 d-block d-md-none" data-ride="carousel" data-aos="fade-right" data-aos-offset="300" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card cp-bg-secondary text-dark vh-100">
+                                <div class="card-img-top px-2">
+                                    <a href="#portfolio" class="row p-3">
+                                        <div class="col-6 border p-0 m-0 bg-light">
+                                            <img src="Assets/cv.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozyplace.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozylife.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozychat.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Front-End Developer</h5>
+                                    <p class="card-text">
+                                        <ul class="fs14 pl-1 list-unstyled">
+                                            Projects:
+                                            <li>This Portfolio <p class="p-0 m-0 text-muted fs13">(HTML, CSS, Bootstrap)</p></li>
+                                            <li>E-commerce Website <span class="font-weight-bold">cozyplace</span> <p class="p-0 m-0 text-muted fs13">(React JS, CSS, Bootstrap, React Slick)</p></li>
+                                            <li>To Do List Website <span class="font-weight-bold">cozylife</span> <p class="p-0 m-0 text-muted fs13">(React JS, CSS)</p></li>
+                                            <li>Chat App Website <span class="font-weight-bold">cozychat</span> <p class="p-0 m-0 text-muted fs13">(React JS, CSS)</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-footer fs14 text-muted">
+                                    <b class="mr-1">Related Skills:</b> HTML, CSS, React JS, Bootstrap, React Slick
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card cp-bg-secondary text-dark vh-100">
+                                <div class="card-img-top px-2">
+                                    <a href="#portfolio" class="row p-3">
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozyplace.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0 bg-light">
+                                            <img src="Assets/cozybus.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozylife.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                        <div class="col-6 border p-0 m-0">
+                                            <img src="Assets/cozychat.png" class="card-img-top" alt="..."> 
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Back-End Developer</h5>
+                                    <p class="card-text">
+                                        <ul class="fs14 pl-1 list-unstyled">
+                                            Projects:
+                                            <li>E-commerce Website <span class="font-weight-bold">cozyplace</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, JSON, MySQL)</p></li>
+                                            <li>Bus Booking Mobile App <span class="font-weight-bold">cozybus</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, JSON, MySQL)</p></li>
+                                            <li>To Do List Website <span class="font-weight-bold">cozylife</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, MySQL, NodeMailer, Postman)</p></li>
+                                            <li>Chat App Website <span class="font-weight-bold">cozychat</span> <p class="p-0 m-0 text-muted fs13">(Node.JS, MySQL, phpMyAdmin, Socket.io)</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-footer fs14 text-muted">
+                                    <b class="mr-1">Related Skills:</b> Node.JS, MySql, MongoDB, Socket.io, Postman
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card cp-bg-secondary text-dark vh-100">
+                                <div class="card-img-top px-2">
+                                    <div class="row">
+                                        <a href="#portfolio" class="col-12 p-0 m-0">
+                                            <img src="Assets/cozybus.png" class="card-img-top p-3" alt="..."> 
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-nowrap">Mobile Apps Developer</h5>
+                                    <p class="card-text">
+                                        <ul class="fs14 pl-1 list-unstyled">
+                                            Projects:
+                                            <li>Bus Booking Mobile App <span class="font-weight-bold">cozybus</span> <p class="p-0 m-0 text-muted fs13">(React JS, Native Base, One Signal)</p></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="card-footer fs14 text-muted">
+                                    <b class="mr-1">Related Skills:</b> React Native, Native Base, One Signal
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card cp-bg-secondary text-dark vh-100">
+                                <div class="card-img-top px-2">
+                                    <div class="row">
+                                        <a href="https://lib.atmajaya.ac.id/default.aspx?tabID=61&src=k&id=237137" target="_blank" class="col-12 p-0 m-0">
+                                            <img src="Assets/TA.png" class="card-img-top p-4" alt="..."> 
+                                        </a>
+                                    </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Industrial Engineer</h5>
+                                <p class="card-text">
+                                    <ul class="fs14 pl-1 list-unstyled">
+                                        Undergraduated Thesis:
+                                        <li>The Study of Work Factor on Workers at PT X Using Job Factors Questionnaire <p class="p-0 m-0 text-muted fs13">(Ergonomics, HSE)</p></li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer fs14 text-muted">
+                                <b class="mr-1">Related Skills:</b>PPIC, Ergonomics, Project Management, HSE
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#cardCarrousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#cardCarrousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="education" class="cp-bg-secondary">
+            <div class="pt-2" style="margin-top: 100px;" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <center><h1 class="judul-nama">EDUCATION</h1>
+                <p class="text-dark" style="letter-spacing: 1px;">Get to know where i've proven my skills</p></center>
+                <hr class="hr-style">
+            </div>
+            <div class="container mt-5">
+                <dl class="row text-center text-md-left">
+                    <dt class="col-md-4 h3" style="letter-spacing: 1px;" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500" data-aos-anchor-placement="top-bottom">LEARNING HISTORY</dt>
+                    <dd class="col-md-8" data-aos="fade-up" data-aos-offset="400" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                      <dl class="row">
+                        <dt class="col-md-8">Junior High School<p class="font-weight-normal">Notre Dame Junior High School</p> </dt>
+                        <dd class="col-md-4">2010 - 2013</dd>
+                        
+                        <dt class="col-md-8">Senior High School<p class="font-weight-normal">Notre Dame Senior High School</p></dt>
+                        <dd class="col-md-4">2013 - 2016</dd>
+    
+                        <dt class="col-md-8">University<p class="font-weight-normal">Bachelor of Engineering, Industrial Engineering Major, Atma Jaya Catholic University of Indonesia</p></dt>
+                        <dd class="col-md-4">2016 - 2020</dd>
+                      </dl>
+                    </dd>
+                    <dt class="col-md-4 h3" style="letter-spacing: 1px;" data-aos="fade-up" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">SPECIAL EDUCATION</dt>
+                    <dd class="col-md-8" data-aos="fade-up" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                      <dl class="row">
+                        <dt class="col-md-12">Sertificate Program</dt>
+                        <dt class="col-md-8">
+                            Purwadhika Coding School
+                            <p class="font-weight-normal">Job Connector Web and Mobile Developer Program</p> 
+                        </dt>
+                        <dd class="col-md-4">Jan - Jun 2021</dd>
+                      </dl>
+                    </dd>
+                    <dt class="col-md-4 h3" style="letter-spacing: 1px;" data-aos="fade-up" data-aos-offset="100" data-aos-duration="300" data-aos-anchor-placement="top-bottom">ORGANIZATIONAL EXPERIENCES</dt>
+                    <dd class="col-md-8" data-aos="fade-up" data-aos-offset="100" data-aos-duration="300" data-aos-anchor-placement="top-bottom">
+                      <dl class="row">
+                        <dt class="col-md-12">● Industrial Engineering UAJ</dt>
+                        <dt class="col-md-8">
+                            Work System Design and Ergonomics Laboratory
+                            <p class="font-weight-normal">Laboratory Assistant</p> 
+                        </dt>
+                        <dd class="col-md-4">2018 -2020</dd>
+                        <dt class="col-md-12">● Gita Swara Jaya Choir</dt>
+                        <dt class="col-md-8">
+                            Management
+                            <p class="font-weight-normal">Training Division</p> 
+                        </dt>
+                        <dd class="col-md-4">2017 - 2019</dd>
+                        <dt class="col-md-8">
+                            Big Meeting, Election, and Management Inauguration
+                            <p class="font-weight-normal">Online Support Staff</p> 
+                        </dt>
+                        <dd class="col-md-4">2020</dd>
+                        <dt class="col-md-8">
+                            Vocal, Soft Skill Training, Intimacy Night, New Members Inauguration
+                            <p class="font-weight-normal">Transport, Acommodation, and Food Coordinator Fund Staff</p> 
+                        </dt>
+                        <dd class="col-md-4">2016-2018</dd>
+                      </dl>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div id="portfolio" class="mt-1">
+            
+        </div>
+        <div class="pt-1">
+            <div data-aos="zoom-in" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <center>
+                    <h1 class="judul-nama">PORTFOLIO</h1>
+                    <p style="letter-spacing: 1px;">Some works that i did. <br/> Only for portfolio purposes only. Profits are none taken.</p>
+                    <small class="text-muted">Please mind that all websites deployed using free platforms, so that could occur errors. For more info please contact <a href="#contact" class="text-decoration none text-muted">Patrick</a></small>
+                </center>
+                <hr class="hr-style mt-2">
+            </div>
+        
+            <div id="portfolioCarousel" class="carousel slide pb-5" data-ride="carousel" data-aos="fade-up" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <ol class="carousel-indicators d-none d-md-flex">
+                    <li data-target="#portfolioCarousel" data-slide-to="0" class="active bg-dark"></li>
+                    <li data-target="#portfolioCarousel" data-slide-to="1" class="bg-dark"></li>
+                    <li data-target="#portfolioCarousel" data-slide-to="2" class="bg-dark"></li>
+                    <li data-target="#portfolioCarousel" data-slide-to="3" class="bg-dark"></li>
+                    <li data-target="#portfolioCarousel" data-slide-to="4" class="bg-dark"></li>
+                </ol>
+                <div class="carousel-inner container-fluid">
+                    <div class="carousel-item active">
+                        <img src="Assets/cv jumbotron.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-xl-block text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h5 style="letter-spacing: 2px">Curriculum Vitae</h5>
+                            <p class="container">
+                            I made this Curriculum Vitae Portfolio using both HTML and CSS. There are no routed page yet (only one page). This CV is also made using bootstrap, both css and js.
+                            I made this whole project by myself, guided by my lecturer at 
+                            <a href="https://purwadhika.com/" target="_blank" class="text-decoration-none text-light font-weight-bold">Purwadhika</a>.
+                            </p>
+                        </div>
+                        <div class="carousel-caption d-block d-xl-none text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h6 style="letter-spacing: 2px">Curriculum Vitae</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://cozy-place.herokuapp.com/" target="_blank"><img src="Assets/cozyplace jumbotron.png" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-xl-block text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <a href="https://cozy-place.herokuapp.com/" target="_blank" class="text-decoration-none text-light"><h5 style="letter-spacing: 2px">COZYPLACE</h5></a>
+                            <p class="container">
+                            I made a full project website exampling an e-commerce called <a href="https://cozy-place.herokuapp.com/" target="_blank" class="text-decoration-none text-light font-weight-bold">cozyplace</a>
+                            using React JS and CSS. JSON Database were being used in this project, and using MySQL Database for the admin feature (CRUD Data Products). 
+                            Cozyplace allowed users to login/register, search products, pick wanted products, add to cart (using redux), process a payment, and check booking history.
+                            I made this whole project by myself, guided by my lecturer at 
+                            <a href="https://purwadhika.com/" target="_blank" class="text-decoration-none text-light font-weight-bold">Purwadhika</a>.
+                            </p>
+                        </div>
+                        <div class="carousel-caption d-block d-xl-none text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h6 style="letter-spacing: 2px">COZYPLACE</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Assets/cozybus jumbotron.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-xl-block text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h5 style="letter-spacing: 2px">COZYBUS</h5>
+                            <p class="container">
+                            I made a full project exampling a bus ticket booking application on Android Devices called <b>cozybus</b>. Using React Native and Android Studio, I'm able to build an app that could login/register, search available tickets on DB, book a ticket,
+                            made a payment, look up booking history, and taking a profile picture. JSON Database were being used on this project. I made this whole project by myself, guided by my lecturer at 
+                            <a href="https://purwadhika.com/" target="_blank" class="font-weight-bold text-decoration-none text-light">Purwadhika</a>.
+                            </p>
+                        </div>
+                        <div class="carousel-caption d-block d-xl-none text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h6 style="letter-spacing: 2px">COZYBUS</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://cozy-life.herokuapp.com/" target="_blank"><img src="Assets/cozylife jumbotron.png" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-xl-block text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h5 style="letter-spacing: 2px">COZYLIFE</h5>
+                            <p class="container">
+                            I made a full website project exampling a to do list called <a href="https://cozy-life.herokuapp.com/" target="_blank" class="text-decoration-none text-light font-weight-bold">cozylife</a> using React JS, Node.JS, CSS, and nodemailer. I'm able to build an app that could login/register, adding forget password feature, authentication mail with gmail,
+                            CRUD a to do list, and group based on date. MySQL Database were being used on this project. 
+                            I made this whole project by myself, guided by my lecturer at 
+                            <a href="https://purwadhika.com/" target="_blank" class="font-weight-bold text-decoration-none text-light">Purwadhika</a>.
+                            </p>
+                        </div>
+                        <div class="carousel-caption d-block d-xl-none text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h6 style="letter-spacing: 2px">COZYLIFE</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://cozy-chat.herokuapp.com/" target="_blank"><img src="Assets/cozychat jumbotron.png" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-xl-block text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <a href="https://cozy-chat.herokuapp.com/" target="_blank" class="text-decoration-none text-light"><h5 style="letter-spacing: 2px">COZYCHAT</h5></a>
+                            <p class="container">
+                            I made a full website project exampling a to do list called <a href="https://cozy-chat.herokuapp.com/" target="_blank" class="text-decoration-none text-light font-weight-bold">cozychat</a> using React JS, Node.JS, CSS, and Socket.io. I'm able to build an app that allow users to chat with another users.
+                            MySQL database are being used in this project. 
+                            I made this whole project by myself, guided by my lecturer at <a href="https://purwadhika.com/" target="_blank" class="font-weight-bold text-decoration-none text-light">Purwadhika</a>.
+                            </p>
+                        </div>
+                        <div class="carousel-caption d-block d-xl-none text-light" style="background-color: rgba(52, 58, 64, 0.8);">
+                            <h6 style="letter-spacing: 2px">COZYCHAT</h6>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+                    <i class="fas fa-chevron-left text-dark fs25" aria-hidden="true"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+                    <i class="fas fa-chevron-right text-dark fs25" aria-hidden="true"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <blockquote class="blockquote text-center mb-5" data-aos="fade-up" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <p class="mb-0">Perfection is the child of time.</p>
+                <footer class="blockquote-footer">Joseph Hall in <cite title="https://www.brainyquote.com/citation/quotes/joseph_hall_160521"><a href="https://www.brainyquote.com/citation/quotes/joseph_hall_160521" class="text-decoration-none text-muted">brainyquote</a></cite></footer>
+            </blockquote>
+        </div>
+        
+        <div class="mt-1" id="contact">
+
+        </div>
+        <div class="cp-bg-secondary pt-1 pb-5">
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <center><h1 class="judul-nama">GET IN TOUCH</h1>
+                <p style="letter-spacing: 1px;">Reach me online</p></center>
+                <hr class="hr-style my-5">
+            </div>
+            <div class="container-contact" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <img src="Assets/email.png" style="opacity: 0.1; width: 280px;" class="rounded mx-auto d-block" alt="...">
+                <div class="centered-contact">
+                    <h4>Patrick Byan Katamsi</h4>
+                    <h6>0812-9691-7987</h6>
+                    <h6>patrickbyann@gmail.com</h6>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+            <h3 class="text-center h5 font-weight-normal pt-5 text-dark-50">
+                Email Me
+            </h3>
+            <p class="text-center fs16 text-muted font-weight-normal mt-n1">
+                Simply use the email feature below
+            </p>
+            <p class="text-center fs16 text-muted font-weight-normal pb-2 mt-n1 blockquote-footer">
+                
+            </p>
+        </div>
+        <form method="post" class="d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-offset="200" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+            <div class="col-11 col-md-4">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input id="name" type="text" class="form-control" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input id="email" type="email" class="form-control" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea id="message" class="form-control" rows="3" placeholder="Enter your Message"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-dark" onclick="submitData()">Submit</button>
+            </div>
+        </form>
+        <div id="bottom" class="navbar-dark bg-dark" style="opacity: 0.8;">
+            <div class="text-center height-50">
+                <div class="text-light pt-2">
+                    <span>CREATED BY PATRICK BYAN</span>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        AOS.init();
+
+        function submitData(){
+            let name = document.getElementById('name').value
+            let mail = document.getElementById('email').value
+            let msg = document.getElementById('message').value
+            
+            window.open(`mailto:patrickbyann@gmail.com?subject=Email From ${name} (patrick-portfolio)&body=${msg}`) 
+        };
+    </script>
+</html>
